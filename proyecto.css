@@ -1,0 +1,103 @@
+*{
+    text-align: center;
+    font-family: "East Sea Dokdo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/originals/be/fc/68/befc687cf8eb15487bb172d1c277c8ee.gif);
+}
+a{
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+header{
+    margin: auto;
+    width: 100%;
+    height: 10vh;
+    display: grid;
+    place-content: center;
+    position: relative;
+    bottom: 0px;
+}
+main{
+    margin: auto;
+    height: 50vh;
+    padding: 5%;
+    display: grid;
+    place-content: center;
+    position: relative;
+    top: 5%;
+}
+
+article{
+    z-index: 0;
+    place-self: center;
+}
+
+section{
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    gap: 10%;
+}
+
+footer{
+    margin-bottom: auto;
+}
+
+#si{
+    background-color: #ffe9;
+    color: black;
+    width: 20vw;
+    height: 15vh;
+    place-self: center;
+    border-color: none;
+    border-radius:10px;
+    outline:none;
+    z-index: 0;
+}
+
+#si:hover{
+    background-color: rgba(244, 255, 127, 0.95);
+    cursor: pointer;
+}
+
+.no{
+    overflow: hidden;
+    background-color: #ffe9;
+    width: 20vw;
+    height: 15vh;
+    place-self: center;
+    border-radius:10px;
+    outline:none;
+}
+
+.no:hover{
+    background-color: rgba(128, 0, 0, 0.95);
+    cursor: pointer;
+}
+
+h1{
+    width: 50%;
+    font-size: 7em;
+}
+h2{
+    width: 100%;
+    font-size: 5em;
+}
+h3{
+    width: 100%;
+    font-size: 2.5em;
+}
